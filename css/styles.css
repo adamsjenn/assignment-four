@@ -88,3 +88,105 @@ p {
     color: white;
     padding: 1px;
 }
+
+/*-------------------------------------
+
+Animations
+
+-------------------------------------*/
+
+  @keyframes fall {
+    0% {
+        top: 115px;
+
+    }
+
+    100% {
+        top: 1200px;
+
+    }
+  }
+  
+  @keyframes hvr-hang {
+    0% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    50% {
+      transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    100% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+      width: 11px;
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    50% {
+      transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    100% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+      width: 11px;
+    }
+  }
+  
+  @keyframes hvr-hang-sink {
+    100% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+      width: 10px;
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      transform: translateY(8px);
+      transform: translateY(8px);
+      width: 10px;
+    }
+  }
+ 
+  .hvr-hang {
+    position: fixed;
+    top: 110px;
+    left: 152px;
+    transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    animation-duration: .5s, 2.5s;
+    animation-duration: .5s, 2.5s;
+    animation-delay: 0s, 2s;
+    animation-delay: 0s, 2s;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+  
+  
+  .fall {
+      position: fixed;
+      top: 115px;
+      left: 152px;
+      animation: fall 7s 6s ease-in infinite;
+  }
+
+  .fall-slow {
+    position: fixed;
+    top: 115px;
+    left: 152px;
+    animation: fall 8s 10s ease-in infinite;
+}

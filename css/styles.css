@@ -7,9 +7,54 @@
 header {
     background-color: black;
     padding: 20px 20px 0px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+footer {
+    background-color: red;
+    padding: 20px 0px 20px 0px;
+    bottom: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 .header-container {
     max-width: 600px;
     padding: 0px 20px 0px 40px;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    padding: 125px 20px 0 20px;
+}
+
+main h1, 
+h2,
+p {
+    padding: 10px 0;
+}
+
+.button-primary a {
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button-primary {
+    margin: 40px 0px 40px 0px;
 }

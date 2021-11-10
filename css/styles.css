@@ -10,10 +10,11 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 99;
 }
 
 footer {
-    background-color: red;
+    background-color: #a90000;
     padding: 20px 0px 20px 0px;
     bottom: 0;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -47,7 +48,7 @@ p {
 }
 
 .button-primary a {
-    color: red;
+    color: white;
     text-decoration: none;
     background-color: black;
     padding: 10px;
@@ -57,4 +58,33 @@ p {
 
 .button-primary {
     margin: 40px 0px 40px 0px;
+}
+
+.text-image-container {
+    position:relative;
+}
+
+.text-container {
+    position:absolute;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    padding: 0 5px;
+    width: 96.6%;
+    color: white;
+}
+
+.right-column p:first-of-type {
+    padding: 0;
+}
+
+.left-column {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.black-highlight {
+    background-color: black;
+    color: white;
+    padding: 1px;
 }

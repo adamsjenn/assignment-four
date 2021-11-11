@@ -1,93 +1,158 @@
+/*-------------------------------------
+
+Universial Styling
+
+-------------------------------------*/
+
+
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 header {
-    background-color: black;
-    padding: 20px 20px 0px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
+  background-color: black;
+  padding: 20px 20px 0px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
 }
 
 footer {
-    background-color: #a90000;
-    padding: 20px 0px 20px 0px;
-    bottom: 0;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: bold;
-    color: white;
+  background-color: #a90000;
+  padding: 20px 0px 20px 0px;
+  bottom: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 50px 0 0 0;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .header-container {
-    max-width: 600px;
-    padding: 0px 20px 0px 40px;
+  max-width: 600px;
+  padding: 0px 20px 0px 40px;
 }
 
 .footer-container {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container nav ul {
+  list-style-type: none;
+  padding: 25px 0;
+}
+
+.footer-container nav ul li {
+  display: inline-block;
+}
+
+.footer-container nav ul li a {
+  text-decoration: none;
+  color: #a90000;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.footer-container nav ul li a:hover {
+  text-decoration: none;
+  color: #a90000;
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  transition: .5s;
 }
 
 .main-container {
-    max-width: 800px;
-    margin: 0 auto;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: black;
-    padding: 125px 20px 0 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: black;
+  padding: 125px 20px 0 20px;
 }
 
 main h1, 
 h2,
 p {
-    padding: 10px 0;
-}
-
-.button-primary a {
-    color: white;
-    text-decoration: none;
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.button-primary {
-    margin: 40px 0px 40px 0px;
-}
-
-.text-image-container {
-    position:relative;
-}
-
-.text-container {
-    position:absolute;
-    bottom: 0;
-    background-color: black;
-    text-align: center;
-    padding: 0 5px;
-    width: 96.6%;
-    color: white;
-}
-
-.right-column p:first-of-type {
-    padding: 0;
-}
-
-.left-column {
-    float: left;
-    padding: 0 10px 0 0;
+  padding: 10px 0;
 }
 
 .black-highlight {
-    background-color: black;
-    color: white;
-    padding: 1px;
+  background-color: black;
+  color: white;
+  padding: 1px;
 }
+
+
+/*-------------------------------------
+
+Button Styling
+
+-------------------------------------*/
+
+.button-primary {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.button-primary:hover {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #a90000;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+/*-------------------------------------
+
+Two- Column Layout
+
+-------------------------------------*/
+
+.text-image-container {
+  position:relative;
+}
+
+.text-container {
+  position:absolute;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  padding: 0 5px;
+  width: 96.6%;
+  color: white;
+}
+
+.right-column p:first-of-type {
+  padding: 0;
+}
+
+.left-column {
+  float: left;
+  padding: 0 10px 0 0;
+}
+
 
 /*-------------------------------------
 

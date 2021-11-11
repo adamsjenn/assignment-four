@@ -7,7 +7,7 @@ I used the setup of the Hover Hang effect found on the following website, which 
 [Click Here to View](https://ianlunn.github.io/Hover/ 
 )
 
-I used this to create a piece of the blood droplet effect, where it is stationary and bouncing up and down. I had to modify the code in order to make it work the way I intented. 
+I used this to create a piece of the blood droplet effect; the portion where it is stationary and bouncing up and down. I had to modify the code in order to make it work the way I intended. 
 
 The original code is below:
 
